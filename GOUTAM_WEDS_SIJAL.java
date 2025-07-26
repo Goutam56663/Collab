@@ -1,19 +1,19 @@
 
 /**
- * Write a description of class goutam_sg here.
+ * Write a description of class GOUTAM_WEDS_SIJAL here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class goutam_sg
+public class GOUTAM_WEDS_SIJAL
 {
     // instance variables - replace the example below with your own
     private int x;
 
     /**
-     * Constructor for objects of class goutam_sg
+     * Constructor for objects of class GOUTAM_WEDS_SIJAL
      */
-    public goutam_sg()
+    public GOUTAM_WEDS_SIJAL()
     {
         // initialise instance variables
         x = 0;
