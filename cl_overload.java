@@ -3,17 +3,17 @@ class cl_overload
     void area (int s)
     {
         int ar = s*s;
-        System.out.println("The area of the square is" +ar);
+        System.out.println("The area of the square is " +ar);
     }
     void area (double r)
     {
         double ar = 3.14*r*r;
-        System.out.println("The area of the circle is" +ar);
+        System.out.println("The area of the circle is " +ar);
     }
     void area (int l, int b)
     {
         int ar = l*b;
-         System.out.println("The area of the rectangle is" +ar);
+         System.out.println("The area of the rectangle is " +ar);
     }
     
     void main ()
