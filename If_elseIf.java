@@ -1,5 +1,5 @@
 
-public class int_check
+public class If_elseIf
 {
     void main(int n)
     {
