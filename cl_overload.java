@@ -18,7 +18,7 @@ class cl_overload
     
     void main ()
     {
-        int k = 5, a = 2, b = 6;
+        int k = 2, a = 7, b = 4;
         double p = 2.32;
         area (k);
         area (p);

@@ -1,4 +1,3 @@
-
 public class Multi_5
 {
     void main(int n)
