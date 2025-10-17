@@ -1,14 +1,17 @@
 class nested_06
 {
-    void main()
-    {
-        for(int i = 5; i >= 1; i--)
+     void main()
+     {
+         for(int i=5; i>=1; i--)
         {
-            for(int j = i; j >= 1; j--)
+            for(int j=1; j<=i; j++)
             {
-                System.out.print(j+ " ");
+                if(j%2==0)
+                System.out.print("$ ");
+                else
+                System.out.print("P ");
             }
             System.out.println(" ");
         }
-    }
+     }
 }
