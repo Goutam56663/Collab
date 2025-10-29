@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class ReverseName 
+class ReverseName_01
 {
     void main() 
     {

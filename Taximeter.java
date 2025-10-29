@@ -1,22 +1,19 @@
 import java.util.Scanner;
 
-class Taximeter
-{
+class Taximeter {
     int taxino;
     String name;
     int km;
     double bill;
 
-    Taximeter() 
-    {
+    Taximeter() {
         taxino = 0;
         name = "";
         km = 0;
         bill = 0.0;
     }
 
-    void getdata() 
-    {
+    void getdata() {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Taxi Number: ");
         taxino = sc.nextInt();
@@ -27,8 +24,7 @@ class Taximeter
         km = sc.nextInt();
     }
 
-    void calculate() 
-    {
+    void calculate() {
         if (km <= 1)
             bill = 20;
         else if (km <= 6)
@@ -41,14 +37,12 @@ class Taximeter
             bill = 20 + 5 * 10 + 6 * 15 + 6 * 20 + (km - 18) * 25;
     }
 
-    void display() 
-    {
+    void display() {
         System.out.println("Taxi No\tName\tKilometers\tBill Amount");
         System.out.println(taxino + "\t" + name + "\t" + km + "\t\t" + bill);
     }
 
-    public static void main() 
-    {
+    public static void main() {
         Taximeter t = new Taximeter();
         t.getdata();
         t.calculate();
