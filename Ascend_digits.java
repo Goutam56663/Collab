@@ -1,5 +1,5 @@
 import java.util.*;
-class AscendingDigits 
+class Ascend_digits 
 {
     void arrangeAscending(int n) 
     {

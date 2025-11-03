@@ -1,9 +1,9 @@
 import java.util.Scanner;
 class Armstrong
 {
-    static boolean isArmstrong(int n) 
+    boolean isArmstrong(int n) 
     {
-        int sum = 0, temp = n;
+        int sum = 0; int temp = n;
         while (temp > 0) 
         {
             int d = temp % 10;
@@ -20,8 +20,8 @@ class Armstrong
         int num = sc.nextInt();
 
         if (isArmstrong(num))
-            System.out.println(num + " is an Armstrong number.");
+            System.out.println("The number given above is an Armstrong number.");
         else
-            System.out.println(num + " is not an Armstrong number.");
+            System.out.println("The number given above isn't an Armstrong number.");
     }
 }

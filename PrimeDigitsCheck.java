@@ -22,6 +22,6 @@ class PrimeDigitsCheck
         if (allPrime)
             System.out.println("All digits are prime digits.");
         else
-            System.out.println("All digits are not prime digits.");
+            System.out.println("All digits aren't prime digits.");
     }
 }
