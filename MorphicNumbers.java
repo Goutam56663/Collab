@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class MorphicNumbers {
-    static boolean endsWith(int num, int end) {
+    boolean endsWith(int num, int end) {
         String nStr = String.valueOf(num);
         String eStr = String.valueOf(end);
         return nStr.endsWith(eStr);

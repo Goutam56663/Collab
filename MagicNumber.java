@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
-class MagicNumber {
-    static int sumOfDigits(int n) {
+class MagicNumber 
+{
+    int sumOfDigits(int n) 
+    {
         int sum = 0;
         while (n > 0) {
             sum += n % 10;

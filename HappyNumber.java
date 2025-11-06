@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class HappyNumber {
-    static int sumSquareDigits(int n) {
+    int sumSquareDigits(int n) {
         int sum = 0;
         while (n > 0) {
             int d = n % 10;

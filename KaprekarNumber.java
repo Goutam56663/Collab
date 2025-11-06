@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class KaprekarNumber {
-    static boolean isKaprekar(int n) {
+    boolean isKaprekar(int n) {
         long sq = (long) n * n;
         String s = Long.toString(sq);
         int d = String.valueOf(n).length();
